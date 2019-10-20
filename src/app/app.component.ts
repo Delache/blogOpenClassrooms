@@ -20,9 +20,10 @@ export class AppComponent {
     content: 'Pellentesque sit amet nisi cursus, vulputate nunc vitae, ultricies sapien. Vestibulum finibus est tempor odio fermentum interdum. Mauris neque tellus, fringilla nec eros eget, venenatis ultrices arcu. Vestibulum ullamcorper finibus arcu at consectetur. Sed pharetra, urna at hendrerit facilisis, purus nibh sollicitudin turpis, vitae tempus ante leo sed est. Nulla facilisi. Nullam sed odio vehicula, malesuada libero id, efficitur odio. Morbi feugiat finibus dolor, in malesuada dui maximus id. Mauris a pharetra ipsum, vitae tempor nisl. Nunc nulla magna, sodales eget condimentum eu, tempus id orci. Integer egestas, est eget commodo hendrerit, nisl massa gravida urna, eu pellentesque lacus ligula in leo. ',
     loveIts: this.compt2,
     createdAt: new Date(),
-   // tslint:disable-next-line: max-line-length
-   },  {title: 'Nam commodo ullamcorper faucibus. Aenean elementum metus non diam pulvinar egestas vitae sit amet metus. Quisque sed urna magna. Vestibulum aliquam lectus at placerat commodo. Pellentesque convallis tellus vitae felis dictum, sodales vulputate purus tempor. Nullam dictum quis arcu vitae suscipit. Praesent porttitor in ipsum at bibendum. Nam tincidunt elit urna, id dictum sapien gravida ac. Nullam porttitor ultrices odio eu blandit. ',
-   content: 'lorem',
+
+   },  {title: 'Encore un post',
+     // tslint:disable-next-line: max-line-length
+   content: 'Nam commodo ullamcorper faucibus. Aenean elementum metus non diam pulvinar egestas vitae sit amet metus. Quisque sed urna magna. Vestibulum aliquam lectus at placerat commodo. Pellentesque convallis tellus vitae felis dictum, sodales vulputate purus tempor. Nullam dictum quis arcu vitae suscipit. Praesent porttitor in ipsum at bibendum. Nam tincidunt elit urna, id dictum sapien gravida ac. Nullam porttitor ultrices odio eu blandit. ',
    loveIts: this.compt3,
    createdAt: new Date(),
   }

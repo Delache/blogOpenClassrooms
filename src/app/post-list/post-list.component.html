@@ -1,1 +1,11 @@
-<p>post-list works!</p>
+<li [ngClass]="{'list-group-item': true,
+                'list-group-item-success': getStatus === 'Allumé',
+                'list-group-item-danger': getStatus === 'Eteint' }">
+  <div class='container'>
+    <h4>{{postTitle}}</h4>
+    <div>{{postDate | date:'short'}}</div>
+  </div>
+  <p>{{postContent}}</p>
+  <button class="btn btn-success">Love it!</button>
+  <button class="btn btn-danger">Don't love it!</button>
+</li>
