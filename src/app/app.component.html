@@ -1,1 +1,8 @@
-<button class="btn btn-success">Yes</button>
+<h2>Blog</h2>
+<ul class='list-group'>
+  <li class='list-group-item'>
+    <div *ngFor='let post of posts'>
+      <app-post-list></app-post-list>
+    </div>
+  </li>
+</ul>
